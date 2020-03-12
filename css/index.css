@@ -24,6 +24,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+body.dark {
+  background: #000000 !important;
+}
+
 p {
   margin: 0 0 10px;
   padding: 0;
@@ -90,12 +94,6 @@ img {
     margin-bottom: 0;
     text-align: left;
   }
-}
-
-.app-store-btn::before {
-  padding-right: 8px;
-  content: '';
-  font-size: 16px;
 }
 
 .app-icon {
@@ -193,6 +191,11 @@ img {
   padding-bottom: 182%;
 }
 
+.iphone-screenshot.dark {
+  overflow: visible;
+  z-index: 1;
+}
+
 @media only screen and (min-width: 767px) {
   .iphone-screenshot {
     z-index: 1;
@@ -203,6 +206,12 @@ img {
 .iphone-screenshot img {
   position: absolute;
   top: 13.88%;
+  left: 0;
+}
+
+.iphone-screenshot.dark img {
+  position: absolute;
+  top: 5%;
   left: 0;
 }
 

@@ -275,3 +275,20 @@ img {
     padding-left: 12px;
   }
 }
+
+.open-app {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.open-app a, a:link, a:visited, a:hover, a:active {
+  background-color: #326ce5;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

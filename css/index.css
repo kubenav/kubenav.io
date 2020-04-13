@@ -282,7 +282,7 @@ img {
   text-align: center;
 }
 
-.open-app a, a:link, a:visited, a:hover, a:active {
+.open-app > a {
   background-color: #326ce5;
   border: 2px solid #ffffff;
   color: #ffffff;
